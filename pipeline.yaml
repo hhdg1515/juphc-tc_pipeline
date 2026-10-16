@@ -1,5 +1,4 @@
   params:
-    - name: build-image
     - name: repo-url
     - name: branch
       default: main
