@@ -1,3 +1,9 @@
+  params:
+    - name: build-image
+    - name: repo-url
+    - name: branch
+      default: main
+    - name: app-name
 apiVersion: tekton.dev/v1beta1
 kind: Pipeline
 metadata:  
